@@ -19,7 +19,8 @@ class _UserProfilePageState extends State<UserProfilePage> {
             height: 200.0,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('lib/images/admin.png'),
+                image: NetworkImage(
+                    'https://oflutter.com/wp-content/uploads/2021/02/profile-bg3.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -30,8 +31,7 @@ class _UserProfilePageState extends State<UserProfilePage> {
                   left: 16.0,
                   child: CircleAvatar(
                     radius: 50.0,
-                    backgroundImage:
-                        NetworkImage('https://oflutter.com/wp-content/uploads/2021/02/profile-bg3.jpg'),
+                    backgroundImage: AssetImage('lib/images/admin.png'),
                   ),
                 ),
                 Positioned(
@@ -95,3 +95,4 @@ class _UserProfilePageState extends State<UserProfilePage> {
     );
   }
 }
+
