@@ -31,7 +31,7 @@ class _UserProfilePageState extends State<UserProfilePage> {
                   child: CircleAvatar(
                     radius: 50.0,
                     backgroundImage:
-                        NetworkImage('https://picsum.photos/id/237/200/300'),
+                        NetworkImage('https://oflutter.com/wp-content/uploads/2021/02/profile-bg3.jpg'),
                   ),
                 ),
                 Positioned(
